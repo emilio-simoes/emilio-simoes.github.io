@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular Workshop</title>
+    <meta charset="utf-8">
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+        @import url(https://fonts.googleapis.com/css?family=Roboto:400,400i,700);
+        @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+
+        body {
+            font-family: 'Roboto', serif;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Yanone Kaffeesatz', serif;
+            font-weight: normal;
+        }
+
+        .remark-code, .remark-inline-code {
+            font-family: 'Source Code Pro', monospace;
+        }
+
+        .remark-code {
+            border-radius: 8px;
+        }
+
+        .remark-inline-code {
+            background-color: #2b2b2b;
+            border-radius: 4px;
+            color: #bababa;
+            font-size: 1.2rem;
+            padding: 2px 8px;
+        }
+
+        .remark-slide-content {
+            font-size: 1.5rem;
+        }
+
+        .center {
+            margin: auto;
+        }
+
+        li {
+            padding-bottom: 1rem;
+            line-height: 1.8rem;
+        }
+
+        li li {
+            padding: 0;
+            margin: 0;
+            line-height: 1.8rem;
+        }
+
+        .logo {
+            position: absolute;
+            left: 4rem;
+            width: 200px;
+        }
+
+        .small-logo {
+            position: absolute;
+            left: 2rem;
+            bottom: 1rem;
+            width: 100px;
+        }
+
+        .no-number .remark-slide-number {
+            display: none;
+        }
+
+        .hljs-darcula .remark-code-line-highlighted {
+            background-color: rgba(0, 0, 0, .5);
+        }
+    </style>
+</head>
+<body>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js">
+</script>
+<script>
+  var slideshow = remark.create({
+    sourceUrl: 'workshop.md',
+    ratio: "16:9",
+    highlightLanguage: "typescript",
+    highlightLines: true,
+    // highlightStyle: "github"
+    highlightStyle: "darcula"
+  });
+</script>
+</body>
+</html>
